@@ -1,0 +1,11 @@
+NAME: 'SuperTrend Scanner'
+MODULE: 'supertrend'
+CLASS: 'SuperTrendScan'
+INTERVAL: '1d'
+PERIOD: 200
+RISK_PC: 1.5
+SIZING: 'risk'
+PARAMETERS:
+  ema_period: 200
+  candle_tol: 10
+WATCHLIST: ['^NSEI']
