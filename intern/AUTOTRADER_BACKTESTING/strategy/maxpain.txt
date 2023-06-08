@@ -1,0 +1,6 @@
+The logic behind this calculation is to identify the strike 
+price that would cause the most financial pain or loss for option buyers
+based on the open interest data. By selecting the strike price with the highest 
+sum of open interest values, the calculation aims to approximate the price 
+at which the maximum number of options would expire out-of-the-money,
+resulting in losses for option buyers.
